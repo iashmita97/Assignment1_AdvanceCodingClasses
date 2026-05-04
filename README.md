@@ -18,6 +18,8 @@ that no character appears more than once in the chosen substring.
 # Problem 2: Array Transformation Cost Minimization 
 # solution link -
 https://leetcode.com/playground/MfeVXHna
+
+
 You are given an integer array A of size N. You can perform the following operation any number of times:
 • Choose any index i and replace A[i] with A[i] + K or A[i] - K, where K is a fixed integer.  Your goal is to: 
 • Transform the array such that all elements become equal. 
