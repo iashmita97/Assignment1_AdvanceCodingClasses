@@ -1,0 +1,30 @@
+class Solution:
+    def maxCyclicSubstringSum(self, s):
+        n = len(s)
+        s2 = s + s
+        
+        char_set = set()
+        left = 0
+        current_sum = 0
+        max_sum = 0
+
+        for right in range(len(s2)):
+            char = s2[right]
+            value = ord(char) - ord('a') + 1
+
+            while char in char_set or (right - left + 1) > n:
+                left_char = s2[left]
+                char_set.remove(left_char)
+                current_sum -= (ord(left_char) - ord('a') + 1)
+                left += 1
+
+            char_set.add(char)
+            current_sum += value
+            max_sum = max(max_sum, current_sum)
+
+        return max_sum
+
+
+# Run test
+sol = Solution()
+print(sol.maxCyclicSubstringSum("abca"))
