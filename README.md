@@ -1,6 +1,6 @@
 # Assignment1_AdvanceCodingClasses
 
-h1 Problem 1: Cyclic Substring Maximum Sum
+# Problem 1: Cyclic Substring Maximum Sum
 You are given a string S consisting of lowercase English alphabets. Each character has a
 value equal to its position in the alphabet (i.e., a = 1, b = 2, ..., z = 26).
 You are allowed to perform the following operation:
@@ -11,7 +11,7 @@ Your task is to:
 that no character appears more than once in the chosen substring.
 
 
-h3 Problem 2: Array Transformation Cost Minimization 
+# Problem 2: Array Transformation Cost Minimization 
 You are given an integer array A of size N. You can perform the following operation any number of times:
 • Choose any index i and replace A[i] with A[i] + K or A[i] - K, where K is a fixed integer.  Your goal is to: 
 • Transform the array such that all elements become equal. 
