@@ -1,3 +1,5 @@
+https://leetcode.com/playground/6zikyHDS
+
 class Solution:
     def maxCyclicSubstringSum(self, s):
         n = len(s)
